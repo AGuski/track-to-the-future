@@ -24,6 +24,6 @@ export class TrackingCanvasComponent implements AfterViewInit {
     this.video = this.videoRef.nativeElement;
     this.canvas = this.canvasRef.nativeElement;
 
-    this.trackingService.createColorTracker(this.video, this.canvas);
+    this.trackingService.createRotationTracker(this.video, this.canvas);
   }
 }
